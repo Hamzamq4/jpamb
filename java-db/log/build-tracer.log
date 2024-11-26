@@ -1,0 +1,154 @@
+[T 18:00:25 27113] CodeQL CLI version 2.19.3
+[T 18:00:25 27113] Initializing tracer.
+[T 18:00:25 27113] Initializing tags.
+[T 18:00:25 27113] ID set to 00000000000069E9_0000000000000001 (parent root)
+[T 18:00:25 27113] Initializing tracer.
+[T 18:00:25 27113] Initializing tags.
+[T 18:00:25 27113] ID set to 00000000000069E9_0000000000000002 (parent root)
+[T 18:00:25 27113] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 18:00:25 27113] ==== Candidate to intercept: /Users/hamzamajidqureshi/codeql/tools/osx64/runner-osx (canonical: /Users/hamzamajidqureshi/codeql/tools/osx64/runner-osx) ====
+[T 18:00:25 27113] Lua: === Intercepted call to /users/hamzamajidqureshi/codeql/tools/osx64/runner-osx ===
+[T 18:00:25 27113] Executing the following tracer actions:
+[T 18:00:25 27113] Tracer actions:
+[T 18:00:25 27113] pre_invocations(0)
+[T 18:00:25 27113] post_invocations(0)
+[T 18:00:25 27113] trace_languages(1): [java]
+[T 18:00:25 27114] Attempting to switch stdout/stderr to 3...
+/Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/bin/bash.semmle.000069E9.32331300.slice.x86_64: replacing existing signature
+[T 18:00:26 27113] Initializing tracer.
+[T 18:00:26 27113] Initializing tags.
+[T 18:00:26 27113] ID set to 00000000000069E9_0000000000000003 (parent 00000000000069E9_0000000000000002)
+[T 18:00:26 27113] ==== Candidate to intercept: /Users/hamzamajidqureshi/codeql/java/tools/autobuild.sh (canonical: /Users/hamzamajidqureshi/codeql/java/tools/autobuild.sh) ====
+[T 18:00:26 27113] Lua: === Intercepted call to /users/hamzamajidqureshi/codeql/java/tools/autobuild.sh ===
+[T 18:00:26 27113] Executing the following tracer actions:
+[T 18:00:26 27113] Tracer actions:
+[T 18:00:26 27113] pre_invocations(0)
+[T 18:00:26 27113] post_invocations(0)
+[T 18:00:26 27113] trace_languages(1): [java]
+[T 18:00:26 27125] Attempting to switch stdout/stderr to 3...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/Users/hamzamajidqureshi/codeql/tools/osx64/java-aarch64/bin/java.semmle.000069F4.16D55A28.slice.arm64
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/Users/hamzamajidqureshi/codeql/tools/osx64/java-aarch64/bin/java.semmle.000069F4.16D55A28.slice.arm64
+/Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/Users/hamzamajidqureshi/codeql/tools/osx64/java-aarch64/bin/java.semmle.000069F4.16D55A28.slice.arm64: replacing existing signature
+[T 18:00:26 27124] Initializing tracer.
+[T 18:00:26 27124] Initializing tags.
+[T 18:00:26 27124] ID set to 00000000000069F4_0000000000000001 (parent 00000000000069E9_0000000000000003)
+[T 18:00:26 27124] ==== Candidate to intercept: /Users/hamzamajidqureshi/codeql/tools/osx64/java-aarch64/bin/java (canonical: /Users/hamzamajidqureshi/codeql/tools/osx64/java-aarch64/bin/java) ====
+[T 18:00:26 27124] Lua: === Intercepted call to /users/hamzamajidqureshi/codeql/tools/osx64/java-aarch64/bin/java ===
+[T 18:00:26 27124] Executing the following tracer actions:
+[T 18:00:26 27124] Tracer actions:
+[T 18:00:26 27124] pre_invocations(0)
+[T 18:00:26 27124] post_invocations(0)
+[T 18:00:26 27124] trace_languages(1): [java]
+[T 18:00:26 27124] Passing through -javaagent:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 18:00:26 27124] Passing through -Xbootclasspath/a:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:00:26 27124] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:00:27 27131] Attempting to switch stdout/stderr to 20...
+/Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/Users/hamzamajidqureshi/codeql/tools/osx64/java-aarch64/lib/jspawnhelper.semmle.000069F4.04B9BB68.slice.arm64: replacing existing signature
+[T 18:00:27 27134] Initializing tracer.
+[T 18:00:27 27134] Initializing tags.
+[T 18:00:27 27134] ID set to 00000000000069FE_0000000000000001 (parent 00000000000069F4_0000000000000001)
+[T 18:00:27 27134] ==== Candidate to intercept: /Users/hamzamajidqureshi/codeql/tools/osx64/java-aarch64/lib/jspawnhelper (canonical: /Users/hamzamajidqureshi/codeql/tools/osx64/java-aarch64/lib/jspawnhelper) ====
+[T 18:00:27 27134] Lua: === Intercepted call to /users/hamzamajidqureshi/codeql/tools/osx64/java-aarch64/lib/jspawnhelper ===
+[T 18:00:27 27134] Executing the following tracer actions:
+[T 18:00:27 27134] Tracer actions:
+[T 18:00:27 27134] pre_invocations(0)
+[T 18:00:27 27134] post_invocations(0)
+[T 18:00:27 27134] trace_languages(1): [java]
+[T 18:00:27 27135] Attempting to switch stdout/stderr to 4...
+/Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/bin/sh.semmle.000069FE.123291C0.slice.x86_64: replacing existing signature
+[T 18:00:27 27134] Initializing tracer.
+[T 18:00:27 27134] Initializing tags.
+[T 18:00:27 27134] ID set to 00000000000069FE_0000000000000002 (parent 00000000000069FE_0000000000000001)
+[T 18:00:27 27134] ==== Candidate to intercept: /Users/hamzamajidqureshi/apache-maven-3.9.9/bin/mvn (canonical: /Users/hamzamajidqureshi/apache-maven-3.9.9/bin/mvn) ====
+[T 18:00:27 27134] Lua: === Intercepted call to /users/hamzamajidqureshi/apache-maven-3.9.9/bin/mvn ===
+[T 18:00:27 27134] Executing the following tracer actions:
+[T 18:00:27 27134] Tracer actions:
+[T 18:00:27 27134] pre_invocations(0)
+[T 18:00:27 27134] post_invocations(0)
+[T 18:00:27 27134] trace_languages(1): [java]
+[T 18:00:27 27134] Initializing tracer.
+[T 18:00:27 27134] Initializing tags.
+[T 18:00:27 27134] ID set to 00000000000069FE_0000000000000003 (parent 00000000000069FE_0000000000000002)
+[T 18:00:27 27134] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 18:00:27 27134] Lua: === Intercepted call to /bin/bash ===
+[T 18:00:27 27134] Executing the following tracer actions:
+[T 18:00:27 27134] Tracer actions:
+[T 18:00:27 27134] pre_invocations(0)
+[T 18:00:27 27134] post_invocations(0)
+[T 18:00:27 27134] trace_languages(1): [java]
+[T 18:00:27 27140] Attempting to switch stdout/stderr to 3...
+/Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/usr/bin/uname.semmle.00006A03.2AFA0F58.slice.x86_64: replacing existing signature
+[T 18:00:28 27139] Initializing tracer.
+[T 18:00:28 27139] Initializing tags.
+[T 18:00:28 27139] ID set to 0000000000006A03_0000000000000001 (parent 00000000000069FE_0000000000000003)
+[T 18:00:28 27139] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 18:00:28 27139] Lua: === Intercepted call to /usr/bin/uname ===
+[T 18:00:28 27139] Executing the following tracer actions:
+[T 18:00:28 27139] Tracer actions:
+[T 18:00:28 27139] pre_invocations(0)
+[T 18:00:28 27139] post_invocations(0)
+[T 18:00:28 27139] trace_languages(1): [java]
+[T 18:00:28 27146] Attempting to switch stdout/stderr to 3...
+/Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/usr/bin/dirname.semmle.00006A09.057A2538.slice.x86_64: replacing existing signature
+[T 18:00:28 27145] Initializing tracer.
+[T 18:00:28 27145] Initializing tags.
+[T 18:00:28 27145] ID set to 0000000000006A09_0000000000000001 (parent 00000000000069FE_0000000000000003)
+[T 18:00:28 27145] ==== Candidate to intercept: /usr/bin/dirname (canonical: /usr/bin/dirname) ====
+[T 18:00:28 27145] Lua: === Intercepted call to /usr/bin/dirname ===
+[T 18:00:28 27145] Executing the following tracer actions:
+[T 18:00:28 27145] Tracer actions:
+[T 18:00:28 27145] pre_invocations(0)
+[T 18:00:28 27145] post_invocations(0)
+[T 18:00:28 27145] trace_languages(1): [java]
+[T 18:00:28 27158] Initializing tracer.
+[T 18:00:28 27158] Initializing tags.
+[T 18:00:28 27158] ID set to 0000000000006A16_0000000000000001 (parent 00000000000069FE_0000000000000003)
+[T 18:00:28 27158] ==== Candidate to intercept: /usr/bin/dirname (canonical: /usr/bin/dirname) ====
+[T 18:00:28 27158] Lua: === Intercepted call to /usr/bin/dirname ===
+[T 18:00:28 27158] Executing the following tracer actions:
+[T 18:00:28 27158] Tracer actions:
+[T 18:00:28 27158] pre_invocations(0)
+[T 18:00:28 27158] post_invocations(0)
+[T 18:00:28 27158] trace_languages(1): [java]
+[T 18:00:28 27165] Attempting to switch stdout/stderr to 3...
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin/java.semmle.000069FE.23F6A658.slice.arm64
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin/java.semmle.000069FE.23F6A658.slice.arm64
+/Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin/java.semmle.000069FE.23F6A658.slice.arm64: replacing existing signature
+[T 18:00:28 27134] Initializing tracer.
+[T 18:00:28 27134] Initializing tags.
+[T 18:00:28 27134] ID set to 00000000000069FE_0000000000000004 (parent 00000000000069FE_0000000000000003)
+[T 18:00:28 27134] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin/java) ====
+[T 18:00:28 27134] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-22.jdk/contents/home/bin/java ===
+[T 18:00:28 27134] Executing the following tracer actions:
+[T 18:00:28 27134] Tracer actions:
+[T 18:00:28 27134] pre_invocations(0)
+[T 18:00:28 27134] post_invocations(0)
+[T 18:00:28 27134] trace_languages(1): [java]
+[T 18:00:29 27134] Passing through -javaagent:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 18:00:29 27134] Passing through -Xbootclasspath/a:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:00:29 27134] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 18:00:30 27174] Attempting to switch stdout/stderr to 94...
+/Users/hamzamajidqureshi/Desktop/jpamb/java-db/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/jspawnhelper.semmle.000069FE.24A2B920.slice.arm64: replacing existing signature
+[T 18:00:30 27177] Initializing tracer.
+[T 18:00:30 27177] Initializing tags.
+[T 18:00:30 27177] ID set to 0000000000006A29_0000000000000001 (parent 00000000000069FE_0000000000000004)
+[T 18:00:30 27177] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 18:00:30 27177] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-22.jdk/contents/home/lib/jspawnhelper ===
+[T 18:00:30 27177] Executing the following tracer actions:
+[T 18:00:30 27177] Tracer actions:
+[T 18:00:30 27177] pre_invocations(0)
+[T 18:00:30 27177] post_invocations(0)
+[T 18:00:30 27177] trace_languages(1): [java]
+[T 18:00:30 27177] Initializing tracer.
+[T 18:00:30 27177] Initializing tags.
+[T 18:00:30 27177] ID set to 0000000000006A29_0000000000000002 (parent 0000000000006A29_0000000000000001)
+[T 18:00:30 27177] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin/java) ====
+[T 18:00:30 27177] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-22.jdk/contents/home/bin/java ===
+[T 18:00:30 27177] Executing the following tracer actions:
+[T 18:00:30 27177] Tracer actions:
+[T 18:00:30 27177] pre_invocations(0)
+[T 18:00:30 27177] post_invocations(0)
+[T 18:00:30 27177] trace_languages(1): [java]
+[T 18:00:30 27177] Passing through -javaagent:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 18:00:30 27177] Passing through -Xbootclasspath/a:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 18:00:30 27177] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/hamzamajidqureshi/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
