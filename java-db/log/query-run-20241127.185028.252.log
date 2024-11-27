@@ -1,0 +1,11 @@
+[2024-11-27 18:50:28] This is codeql query run /Users/hamzamajidqureshi/codeql/qlpacks/codeql/java-queries/1.1.8/circular-dependencies.ql --database=/Users/hamzamajidqureshi/Desktop/jpamb/java-db --output=circular-dependencies.bqrs
+[2024-11-27 18:50:28] Log file was started late.
+[2024-11-27 18:50:28] Calling plumbing command: codeql resolve ram --dataset=/Users/hamzamajidqureshi/Desktop/jpamb/java-db/db-java --format=json
+[2024-11-27 18:50:28] [PROGRESS] resolve ram> Stringpool size measured as 2523546
+[2024-11-27 18:50:28] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1800M",
+                        "--off-heap-ram=1615"
+                      ]
+[2024-11-27 18:50:28] Chaining via /var/folders/s5/1s5n05k56ds1wdhfq1bd19zc0000gn/T/codeql.XXXXXXXX.33ZBlRmmTh to plumbing: execute queries -J-Xmx1800M --off-heap-ram=1615 --verbosity=progress --logdir=/Users/hamzamajidqureshi/Desktop/jpamb/java-db/log --evaluator-log-level=5 --warnings=show --dynamic-join-order-mode=none --qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml --output=/Users/hamzamajidqureshi/Desktop/jpamb/circular-dependencies.bqrs -- /Users/hamzamajidqureshi/Desktop/jpamb/java-db/db-java path:/Users/hamzamajidqureshi/codeql/qlpacks/codeql/java-queries/1.1.8/circular-dependencies.ql
+[2024-11-27 18:50:28] Exiting with code 70
