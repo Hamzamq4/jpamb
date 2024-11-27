@@ -1,3 +1,0 @@
-[2024-11-26 19:00:31] [javac-output-27177] warning: [options] location of system modules is not set in conjunction with -source 19
-[2024-11-26 19:00:31] [javac-output-27177]   not setting the location of system modules may lead to class files that cannot run on JDK 19
-[2024-11-26 19:00:31] [javac-output-27177]     --release 19 is recommended instead of -source 19 -target 19 because it sets the location of system modules automatically

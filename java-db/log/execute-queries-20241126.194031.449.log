@@ -1,0 +1,20 @@
+[2024-11-26 19:40:31] This is codeql execute queries -J-Xmx1800M --off-heap-ram=1615 --verbosity=progress --logdir=/Users/hamzamajidqureshi/Desktop/jpamb/java-db/log --evaluator-log-level=5 --threads=16 --warnings=show --dynamic-join-order-mode=none --qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml --no-rerun --interpret-passthrough=null,--format=sarif-latest,-o=/Users/hamzamajidqureshi/Desktop/jpamb/leaks_results.sarif,--max-paths=4,--csv-location-format=line-column,--print-diagnostics-summary,--print-metrics-summary,--threads=16,--qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml,--,/Users/hamzamajidqureshi/Desktop/jpamb/java-db,/Users/hamzamajidqureshi/codeql/qlpacks/codeql/java-queries/1.1.8/Likely,Bugs/Resource,Leaks --output=/Users/hamzamajidqureshi/Desktop/jpamb/java-db/results -- /Users/hamzamajidqureshi/Desktop/jpamb/java-db/db-java /Users/hamzamajidqureshi/codeql/qlpacks/codeql/java-queries/1.1.8/Likely Bugs/Resource Leaks
+[2024-11-26 19:40:31] Calling plumbing command: codeql resolve queries --qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml --format=json -- /Users/hamzamajidqureshi/codeql/qlpacks/codeql/java-queries/1.1.8/Likely Bugs/Resource Leaks
+[2024-11-26 19:40:31] Exception caught at top level: /Users/hamzamajidqureshi/codeql/qlpacks/codeql/java-queries/1.1.8/Likely is not a .ql file, .qls file, a directory, or a query pack specification.
+                      com.semmle.cli2.resolve.ResolveQueriesCommand.resolveQuerySpecifier(ResolveQueriesCommand.java:305)
+                      com.semmle.cli2.resolve.ResolveQueriesCommand.executeJSON(ResolveQueriesCommand.java:211)
+                      com.semmle.cli2.resolve.ResolveQueriesCommand.executeJSON(ResolveQueriesCommand.java:68)
+                      com.semmle.cli2.picocli.SimpleJsonSubcommand.executeInsistingOnJSONWithExistingMessages(SimpleJsonSubcommand.java:121)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:443)
+                      com.semmle.cli2.picocli.SimpleJsonSubcommand.executeInsistingOnJSON(SimpleJsonSubcommand.java:110)
+                      com.semmle.cli2.picocli.PlumbingRunner.call(PlumbingRunner.java:61)
+                      com.semmle.cli2.picocli.SubcommandCommon.callPlumbingInProcess(SubcommandCommon.java:169)
+                      com.semmle.cli2.execute.ExecuteQueriesCommand.executeSubcommand(ExecuteQueriesCommand.java:428)
+                      com.semmle.cli2.picocli.SubcommandCommon.lambda$executeSubcommandWithMessages$5(SubcommandCommon.java:893)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:443)
+                      com.semmle.cli2.picocli.SubcommandCommon.executeSubcommandWithMessages(SubcommandCommon.java:891)
+                      com.semmle.cli2.picocli.SubcommandCommon.toplevelMain(SubcommandCommon.java:775)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:756)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:238)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:259)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:115)

@@ -1,0 +1,77 @@
+[2024-11-26 20:16:10] This is codeql execute queries -J-Xmx1800M --off-heap-ram=1615 --verbosity=progress --logdir=/Users/hamzamajidqureshi/Desktop/jpamb/java-db/log --evaluator-log-level=5 --warnings=show --dynamic-join-order-mode=none --search-path=/Users/hamzamajidqureshi/codeql/qlpacks/codeql --qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml --no-rerun --interpret-passthrough=null,--format=dot,-o=/Users/hamzamajidqureshi/Desktop/jpamb/call-graph.dot,--max-paths=4,--csv-location-format=line-column,--print-diagnostics-summary,--print-metrics-summary,--search-path=/Users/hamzamajidqureshi/codeql/qlpacks/codeql,--qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml,--,/Users/hamzamajidqureshi/Desktop/jpamb/java-db,/Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql --output=/Users/hamzamajidqureshi/Desktop/jpamb/java-db/results -- /Users/hamzamajidqureshi/Desktop/jpamb/java-db/db-java /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql
+[2024-11-26 20:16:10] Calling plumbing command: codeql resolve queries --search-path=/Users/hamzamajidqureshi/codeql/qlpacks/codeql --qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml --format=json -- /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql
+[2024-11-26 20:16:10] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql) at /Users/hamzamajidqureshi/Desktop/jpamb.
+[2024-11-26 20:16:10] Plumbing command codeql resolve queries completed:
+                      [
+                        "/Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql"
+                      ]
+[2024-11-26 20:16:10] Creating executor with 1 threads.
+[2024-11-26 20:16:10] Calling plumbing command: codeql resolve extensions --search-path=/Users/hamzamajidqureshi/codeql/qlpacks/codeql --qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml --include-extension-row-locations /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql
+[2024-11-26 20:16:10] Calling plumbing command: codeql resolve queries --search-path=/Users/hamzamajidqureshi/codeql/qlpacks/codeql --qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml --allow-library-packs --format startingpacks -- /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql
+[2024-11-26 20:16:10] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql) at /Users/hamzamajidqureshi/Desktop/jpamb.
+[2024-11-26 20:16:10] Plumbing command codeql resolve queries completed:
+                      [
+                        "/Users/hamzamajidqureshi/Desktop/jpamb"
+                      ]
+[2024-11-26 20:16:10] Calling plumbing command: codeql resolve extensions-by-pack --search-path=/Users/hamzamajidqureshi/codeql/qlpacks/codeql --qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml --include-extension-row-locations -- /Users/hamzamajidqureshi/Desktop/jpamb
+[2024-11-26 20:16:10] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2024-11-26 20:16:10] [SPAMMY] resolve extensions-by-pack> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2024-11-26 20:16:10] [SPAMMY] resolve extensions-by-pack> [DECISION 1] <anonymous pack>: 0.0.0
+[2024-11-26 20:16:10] Plumbing command codeql resolve extensions-by-pack completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "threatModels" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2024-11-26 20:16:10] Plumbing command codeql resolve extensions completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "threatModels" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2024-11-26 20:16:10] Calling plumbing command: codeql resolve library-path --search-path=/Users/hamzamajidqureshi/codeql/qlpacks/codeql --qlconfig-file=/Users/hamzamajidqureshi/Desktop/jpamb/qlconfig.yml --query=/Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql --format=json
+[2024-11-26 20:16:10] [DETAILS] resolve library-path> Resolving query at normalized path /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql.
+[2024-11-26 20:16:10] [DETAILS] resolve library-path> Found no pack; trying after symlink resolution with /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql.
+[2024-11-26 20:16:10] [DETAILS] resolve library-path> Found enclosing pack 'jpamb' at /Users/hamzamajidqureshi/Desktop/jpamb.
+[2024-11-26 20:16:10] [DETAILS] resolve library-path> Adding compilation cache at /Users/hamzamajidqureshi/.codeql/compile-cache.
+[2024-11-26 20:16:10] [DETAILS] resolve library-path> Resolving library dependencies from /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql.
+[2024-11-26 20:16:10] [SPAMMY] resolve library-path> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2024-11-26 20:16:10] [SPAMMY] resolve library-path> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2024-11-26 20:16:10] [SPAMMY] resolve library-path> [DECISION 1] <anonymous pack>: 0.0.0
+[2024-11-26 20:16:10] [DETAILS] resolve library-path> QL pack dependencies for /Users/hamzamajidqureshi/Desktop/jpamb resolved OK.
+[2024-11-26 20:16:10] [DETAILS] resolve library-path> Found no dbscheme through dependencies.
+[2024-11-26 20:16:11] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "/Users/hamzamajidqureshi/Desktop/jpamb"
+                        ],
+                        "compilationCache" : [
+                          "/Users/hamzamajidqureshi/.codeql/compile-cache"
+                        ],
+                        "relativeName" : "jpamb/CallGraph.ql",
+                        "possibleAdvice" : "There should probably be a qlpack.yml file declaring dependencies in /Users/hamzamajidqureshi/Desktop/jpamb or an enclosing directory.",
+                        "qlPackName" : "jpamb"
+                      }
+[2024-11-26 20:16:11] [PROGRESS] execute queries> Compiling query plan for /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql.
+[2024-11-26 20:16:11] [DETAILS] execute queries> Resolving imports for /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql.
+[2024-11-26 20:16:11] Resolved file set for /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql hashes to 56500aa2d70557fa37b7eba4b5e044ecccf9cfc4.
+[2024-11-26 20:16:11] [DETAILS] execute queries> Checking QL for /Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql.
+[2024-11-26 20:16:11] Stale frontend caches are invalidated based on import graph reachability.
+[2024-11-26 20:16:11] ExternalModuleBindingPass ...
+[2024-11-26 20:16:11] ExternalModuleBindingPass time: 00:00.000
+[2024-11-26 20:16:11] CollectInstantiationsPass ...
+[2024-11-26 20:16:11] CollectInstantiationsPass time: 00:00.001
+[2024-11-26 20:16:11] Ql checks ...
+[2024-11-26 20:16:11] Ql checks time: 00:00.014
+[2024-11-26 20:16:11] [WARN] execute queries> WARNING: QLDoc comment is not attached to any QL element (/Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql:3,1-7,4)
+[2024-11-26 20:16:11] [ERROR] execute queries> ERROR: could not resolve module java (/Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql:1,8-12)
+[2024-11-26 20:16:11] [ERROR] execute queries> ERROR: could not resolve type Method (/Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql:8,6-12)
+[2024-11-26 20:16:11] [ERROR] execute queries> ERROR: could not resolve type Method (/Users/hamzamajidqureshi/Desktop/jpamb/CallGraph.ql:8,21-27)
+[2024-11-26 20:16:11] Sequence stamp origin is -6112217046439483947
+[2024-11-26 20:16:11] Pausing evaluation to close the cache at sequence stamp o+0
+[2024-11-26 20:16:11] The disk cache is freshly trimmed; leave it be.
+[2024-11-26 20:16:11] Unpausing evaluation
+[2024-11-26 20:16:11] This NaiveBuddyAllocator requested 0 eviction rounds.
+[2024-11-26 20:16:11] Exiting with code 2
